@@ -1,0 +1,78 @@
+{
+  "meta": {
+    "lang": "ko",
+    "version": "1",
+    "ackVersion": "1",
+    "file": "fm-partner-academy-ko.html",
+    "title": "Fusion Manage 파트너 아카데미",
+    "product": "Fusion Manage 파트너 아카데미",
+    "subtitle": "신규 구현·서비스 파트너를 위한 비공식 참고 가이드",
+    "soon": "준비 중",
+    "langs": [
+      { "code": "ko", "label": "한국어", "file": "fm-partner-academy-ko.html" },
+      { "code": "ja", "label": "日本語", "file": "fm-partner-academy-ja.html" },
+      { "code": "en", "label": "English", "file": "fm-partner-academy-en.html" }
+    ],
+    "disclaimer": {
+      "kicker": "시작하기 전에 반드시 읽어 주십시오",
+      "title": "이 가이드는 *비공식 참고 자료*입니다",
+      "items": [
+        "**Autodesk 공식 자료가 아닙니다.** 이 가이드는 Autodesk가 검토·승인·보증한 교육 과정, 방법론, 가격 정책, 계약 표준, 파트너 프로그램 자료가 아닙니다.",
+        "**Autodesk 공식 자료나 Autodesk가 보증한 자료로 소개·인용·배포하지 마십시오.** Autodesk 로고와 제품명은 식별 목적으로만 쓰였으며, Autodesk의 후원·보증·승인을 뜻하지 않습니다.",
+        "**실제 업무에 그대로 쓰지 마십시오.** 공수·기간·템플릿·문구는 과거 한 엔터프라이즈 프로젝트 기록에서 추출한 참고 정보입니다. 정확성·완전성·최신성, 귀사 상황에의 적합성을 보장하지 않습니다.",
+        "**실제 견적, SOW, 제안서, 계약, 고객 약속에는** 귀사의 자체 검토, 고객 디스커버리, 법무 검토를 거친 내용만 사용하십시오.",
+        "**성공을 보장하지 않습니다.** 이 가이드의 내용을 모두 따르더라도 프로젝트의 성공이나 특정 결과가 보장되지 않습니다. 이 자료의 사용과 그 결과에 대한 판단과 책임은 사용자에게 있습니다.",
+        "**법률·계약·세무 자문이 아닙니다.** 계약 관련 내용은 개념 설명일 뿐입니다."
+      ],
+      "check": "위 내용을 이해했으며, 이 가이드를 비공식 참고 자료로만 사용하겠습니다.",
+      "enter": "동의하고 시작하기",
+      "close": "닫기",
+      "banner": "비공식 참고 자료 · Autodesk 공식 자료 아님 · 실제 사용 전 자체 검증·법무 검토 필수 · 성공을 보장하지 않음",
+      "bannerLink": "고지 전문 보기"
+    },
+    "legal": "비공식 참고 자료입니다. Autodesk 공식 자료가 아니며 Autodesk의 검토·승인·보증을 받지 않았습니다. 이 가이드는 실제 엔터프라이즈 Fusion Manage·Vault 프로젝트 기록에서 고객명·인명·계약 번호·금액을 모두 제거하고 패턴과 공수만 남긴 참고 정보입니다. 내용의 정확성·적합성과 프로젝트 성공을 보장하지 않으며, 실제 견적·SOW·계약에 쓰기 전 반드시 귀사 검토, 고객 디스커버리, 법무 검토를 거치십시오. 법률·계약 자문이 아닙니다. Autodesk, Fusion, Vault는 미국 및/또는 기타 국가에서 Autodesk, Inc.의 등록 상표 또는 상표이며, 식별 목적으로만 사용했습니다."
+  },
+  "ui": {
+    "search": "가이드 검색",
+    "progress": "진행 {n}/{t} 모듈 완료",
+    "totalTime": "전체 과정 약 {h}시간 {m}분 · 모듈별 시간은 각 모듈 상단에 표시",
+    "timeLabel": "이 모듈 학습 시간",
+    "module": "모듈",
+    "prev": "이전",
+    "next": "다음",
+    "markDone": "이 모듈 완료로 표시",
+    "completed": "완료함 ✓",
+    "reset": "초기화",
+    "copy": "복사",
+    "copied": "복사됨",
+    "checked": "{n}/{t} 완료",
+    "activity": "활동",
+    "quizTitle": "셀프 체크",
+    "quizScore": "{n}/{t} 정답",
+    "quizRetry": "다시 풀기",
+    "quizHint": "답을 고르면 해설이 나옵니다. '다시 풀기'로 선택을 지우고 처음부터 풀 수 있습니다.",
+    "results": "\"{q}\" 검색 결과 {n}건",
+    "raciKey": "R = 실행 책임, A = 최종 승인 책임(활동당 1명), C = 사전 협의, I = 결과 통보",
+    "save": "진행 상황 저장",
+    "saved": "저장됨 · {t}",
+    "autosave": "모듈 이동·체크·견적 입력은 이 브라우저에 자동 저장됩니다",
+    "resume": "지난번 위치: 모듈 {n} {title}",
+    "resumeBtn": "이어서 학습하기",
+    "dismiss": "닫기",
+    "export": "내보내기",
+    "import": "불러오기",
+    "exportHint": "다른 PC·브라우저로 옮길 때 진행 파일을 내보내고 불러오십시오",
+    "importOk": "진행 상황을 불러왔습니다",
+    "importErr": "파일을 읽을 수 없습니다",
+    "builderLink": "SOW·견적 빌더 바로 가기",
+    "callout": { "tip": "팁", "warn": "주의", "rule": "원칙", "source": "근거", "example": "사례" }
+  },
+  "groups": {
+    "start": "시작하기",
+    "sell": "영업과 스코핑",
+    "contract": "SOW와 계약",
+    "deliver": "구현",
+    "run": "운영과 유지보수",
+    "kit": "툴킷"
+  }
+}

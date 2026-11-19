@@ -1,0 +1,10 @@
+# Never commit raw source material, analyst notes or name denylists
+_work/
+corpus/
+notes/
+*denylist*
+*.local.*
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
