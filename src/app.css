@@ -306,3 +306,4 @@ body.gated { overflow: hidden; }
   details.d { display: block; } details.d > .db { display: block !important; }
   body { font-size: 11pt; line-height: 1.5; }
 }
+.side .brand .ver { margin-top: 8px; font-size: 12px; line-height: 16px; color: var(--yellow); }

@@ -1,7 +1,6 @@
 {
   "meta": {
     "lang": "ko",
-    "version": "1",
     "ackVersion": "1",
     "file": "fm-partner-academy-ko.html",
     "title": "Fusion Manage 파트너 아카데미",
@@ -9,9 +8,21 @@
     "subtitle": "신규 구현·서비스 파트너를 위한 비공식 참고 가이드",
     "soon": "준비 중",
     "langs": [
-      { "code": "ko", "label": "한국어", "file": "fm-partner-academy-ko.html" },
-      { "code": "ja", "label": "日本語", "file": "fm-partner-academy-ja.html" },
-      { "code": "en", "label": "English", "file": "fm-partner-academy-en.html" }
+      {
+        "code": "ko",
+        "label": "한국어",
+        "file": "fm-partner-academy-ko.html"
+      },
+      {
+        "code": "ja",
+        "label": "日本語",
+        "file": "fm-partner-academy-ja.html"
+      },
+      {
+        "code": "en",
+        "label": "English",
+        "file": "fm-partner-academy-en.html"
+      }
     ],
     "disclaimer": {
       "kicker": "시작하기 전에 반드시 읽어 주십시오",
@@ -30,7 +41,8 @@
       "banner": "비공식 참고 자료 · Autodesk 공식 자료 아님 · 실제 사용 전 자체 검증·법무 검토 필수 · 성공을 보장하지 않음",
       "bannerLink": "고지 전문 보기"
     },
-    "legal": "비공식 참고 자료입니다. Autodesk 공식 자료가 아니며 Autodesk의 검토·승인·보증을 받지 않았습니다. 이 가이드는 실제 엔터프라이즈 Fusion Manage·Vault 프로젝트 기록에서 고객명·인명·계약 번호·금액을 모두 제거하고 패턴과 공수만 남긴 참고 정보입니다. 내용의 정확성·적합성과 프로젝트 성공을 보장하지 않으며, 실제 견적·SOW·계약에 쓰기 전 반드시 귀사 검토, 고객 디스커버리, 법무 검토를 거치십시오. 법률·계약 자문이 아닙니다. Autodesk, Fusion, Vault는 미국 및/또는 기타 국가에서 Autodesk, Inc.의 등록 상표 또는 상표이며, 식별 목적으로만 사용했습니다."
+    "legal": "비공식 참고 자료입니다. Autodesk 공식 자료가 아니며 Autodesk의 검토·승인·보증을 받지 않았습니다. 이 가이드는 실제 엔터프라이즈 Fusion Manage·Vault 프로젝트 기록에서 고객명·인명·계약 번호·금액을 모두 제거하고 패턴과 공수만 남긴 참고 정보입니다. 내용의 정확성·적합성과 프로젝트 성공을 보장하지 않으며, 실제 견적·SOW·계약에 쓰기 전 반드시 귀사 검토, 고객 디스커버리, 법무 검토를 거치십시오. 법률·계약 자문이 아닙니다. Autodesk, Fusion, Vault는 미국 및/또는 기타 국가에서 Autodesk, Inc.의 등록 상표 또는 상표이며, 식별 목적으로만 사용했습니다.",
+    "storageVersion": "1"
   },
   "ui": {
     "search": "가이드 검색",
@@ -65,7 +77,14 @@
     "importOk": "진행 상황을 불러왔습니다",
     "importErr": "파일을 읽을 수 없습니다",
     "builderLink": "SOW·견적 빌더 바로 가기",
-    "callout": { "tip": "팁", "warn": "주의", "rule": "원칙", "source": "근거", "example": "사례" }
+    "callout": {
+      "tip": "팁",
+      "warn": "주의",
+      "rule": "원칙",
+      "source": "근거",
+      "example": "사례"
+    },
+    "versionLabel": "버전 {v} · {d} 업데이트"
   },
   "groups": {
     "start": "시작하기",
@@ -74,5 +93,16 @@
     "deliver": "구현",
     "run": "운영과 유지보수",
     "kit": "툴킷"
+  },
+  "landing": {
+    "title": "Fusion Manage 파트너 아카데미",
+    "sub": "신규 구현·서비스 파트너를 위한 비공식 참고 가이드",
+    "open": "가이드 열기 (한국어)",
+    "soon": "준비 중",
+    "latest": "최신 버전",
+    "archive": "이전 버전",
+    "changelog": "변경 이력",
+    "repo": "GitHub 저장소",
+    "how": "브라우저에서 바로 열립니다. 설치·로그인이 필요 없습니다. 진행 상황은 각자 브라우저에 저장됩니다."
   }
 }

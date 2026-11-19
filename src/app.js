@@ -1,6 +1,6 @@
 (function () {
   'use strict';
-  var D = window.ACADEMY, U = D.ui, L = D.meta.lang, KEY = 'fmacad:' + D.meta.version + ':';
+  var D = window.ACADEMY, U = D.ui, L = D.meta.lang, KEY = 'fmacad:' + (D.meta.storageVersion || '1') + ':';
   var store = {
     get: function (k, d) { try { var v = localStorage.getItem(KEY + k); return v === null ? d : JSON.parse(v); } catch (e) { return d; } },
     set: function (k, v) { try { localStorage.setItem(KEY + k, JSON.stringify(v)); } catch (e) {} }
